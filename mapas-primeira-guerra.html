@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        <title>ιστορία</title>
+        
+        <style>
+        
+            img#mapa-clicavel {
+                width: 350px;
+                height: 250px;
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            
+            <input type="checkbox" name="check" id="check" />
+            
+            <label for="check">
+                <img id="botao-menu" src="botao-menu.png" alt="Botão que abre Navbar" />
+            </label>
+            
+            <nav>
+                
+              <ul>
+                  
+                 <a href="index.html" target="_self">Início</a>
+                 <a href="mapas.html" target="_self">Mapas</a>
+                 <a href="duvidas.html" target="_self">Dúvidas</a>
+                 <a href="cadastro.html" target="_self">Cadastro</a>
+                  
+              </ul>  
+                
+            </nav>
+
+            <h1>ιστορία<img id="gif" src="globe-7.gif" alt="Gif do planeta Terra girando" /></h1>
+
+            <h2>Mapas</h2>
+            
+            </header>
+            
+            <main>
+                
+                <h2>1ª Guerra Mundial</h2>
+                
+                <img id="mapa-clicavel" src="mapa-primeira-guerra-clicavel.jpeg" alt="Mapa da Primeira Guerra Mundial" usemap="#mapa-primeira-guerra"/>
+                
+                <map name="mapa-primeira-guerra">
+                    
+                    <area shape="rect" coords="109,88,162,115" href="alemanha-primeira-guerra.html" target="iframe" alt="Resumo sobre a Alemanha" />
+                    <area shape="rect" coords="62,126,107,155" href="franca-primeira-guerra.html" target="iframe" alt="Resumo sobre a França" />
+                    
+                </map>
+                
+                <iframe name="iframe" src="primeira-guerra-visao-geral.html" frameborder="0"></iframe>
+                
+            </main>
+            
+        <footer>
+            
+            <h3>Minhas redes sociais:</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yuri-ficher-974181216" target="_blank"><img id="peq-linkedin" src="linkedin.png" alt="Logo do linkedin"/></a></li>
+                
+                <li><a href="https://github.com/Yurift" target="_blank"><img id="peq-github" src="github.png" alt="Logo do Github" /></a></li>
+                
+                <li><a href="https://www.linkedin.com/in/yuri-ficher-974181216" target="_blank"><img id="peq-instagram" src="instagram.png" alt="Logo do Instagram" /></a></li>
+            </ul>
+            
+            <p>Site produzido por: <a href="perfil-yuri.html" target="_blank">Yuri Ficher</a></p>
+            
+        </footer>
+        
+    </body>
+</html>
